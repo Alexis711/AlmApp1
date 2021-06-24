@@ -1,0 +1,47 @@
+.fondoNav{
+    background-color: #251d1b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fondoSideBar{
+    background-color: #1f130f;
+    color: white!important;
+}
+a{
+    color: white;
+}
+.imgSideBar{
+    height: 30px;
+}
+.textStyleMain{
+    color: #a5624c;
+}
+a.textStyleMain{
+    border-left: 4px solid #74301d;
+}
+a.nav-link:hover{
+    color: #74301d !important;
+}
+.navbarStyle{
+    color: #74301d !important;
+}
+a.navbarStyle:focus{
+    color: white!important;
+    background-color: #74301d;
+}
+/*
+Colores base
+LabBoc = #74301d
+LabBoc2 = #a5624c
+LunCuel = #625042
+Piel = #968375
+Cabello = #251d1b
+Ojos = #1f130f
+azul = #557c82
+
+Color base
+Sidebar = Ojos
+Fondo = piel
+Navbar = Cabello
+Botones = LabBoc
+*/

@@ -1,0 +1,102 @@
+.descripcion{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.footerAcerca{
+    background-color: white;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    width: 100%;
+}
+.alignfooter{
+   align-self: center; 
+}
+.infoContacto{
+    text-align: center;
+    font-size: 14px;
+}
+.sizeimg{
+    width: 100px;
+}
+.marginTools{
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 100%;
+}
+.alignTools{
+    align-self: center;
+    text-align: center;
+}
+.colocaContainer{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.sizeimgGrupo{
+    width: 150px;
+}
+.paddingNavbar{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background-color: #251d1b;
+}
+.fondoContenido{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #968375;
+    color: white;
+}
+.colorFuente{
+    color: white;
+}
+b{
+    color: white;
+}
+.contenidoFooter{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fuenteFooter{
+    color: #a5624c;
+    font-size: 13px;
+}
+.fuenteTituloFooter{
+    color: #74301d;
+    font-size: 15px;
+    
+}
+.imgFooter{
+    height: 40px;
+}
+.appname{
+    color: #625042;
+}
+a.dropdown-item:focus{
+    background-color: #a5624c;
+}
+.botonMy{
+    font-size: 15px!important;
+}
+a.botonMy:focus,
+a.botonMy:hover{
+    background-color: #1f130f;
+}
+/*
+Colores base
+LabBoc = #74301d
+LabBoc2 = #a5624c
+LunCuel = #625042
+Piel = #968375
+Cabello = #251d1b
+Ojos = #1f130f
+azul = #557c82
+
+Color base
+Sidebar = Ojos
+Fondo = piel
+Navbar = Cabello
+Botones = LabBoc
+*/

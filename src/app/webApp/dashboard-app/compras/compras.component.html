@@ -1,0 +1,126 @@
+<div class="container-fluid fondoContent">
+  <div class="card fondoCardProducto">
+    <!-- Card body -->
+    <div class="card-body">
+      <div class="row align-items-center">
+        <div class="col-md-2 imgPos">
+          <!-- Avatar -->
+            <img class="avatar imgSize" src="../../../../assets/img/spidey.png" data-toggle="modal" data-target="#modalVer">
+        </div>
+        <div class="col-md-10">
+          <h4 class="mb-0">
+            <span class="styleTextCardTitle">Funko spiderman</span>
+          </h4>
+          <label class="labelProductos"><b>$300.00</b></label>
+          <p class="text-sm mb-0 styleTextCard">Figura de coleccion hecha de plastico</p>
+          
+        </div>
+      </div>
+      <div class="row align-items-center sizeRowTwo">
+        <div class="col-md-3">
+          <button type="button" class="btn btn-sm styleButton" data-toggle="modal" data-target="#modalVer">Ver</button>
+          <button type="button" class="btn btn-sm styleButton" data-toggle="modal" data-target="#modalEliminar">Eliminar</button>
+          <!--Inicio modal -->
+          <div class="modal fade" id="modalVer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content modalFondo">
+                <div class="modal-header">
+                  <h5 class="modal-title modalFuente" id="exampleModalLabel">Informacion del articulo</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <!--Foto articulo-->
+                    <div class="row">
+                      <div class="col-md-4 colocacionImgModal">
+                        <img class="imgModal" src="../../../../assets/img/spidey.png">
+                      </div>
+                      <div class="col-md-8">
+                        <span class="styleTextCardTitle"><b>Funko spiderman </b></span><br><label class="moneyModal"><b> $300.00</b></label><br>
+                        <p class="text-sm mb-0 textModal">Funko POP de Spiderman es una figura de coleccion, de excelente calidad, incluye caja jajaj. Buenas noches mucho gusto eras una chica mas despues de 5 minutos ya eras alguien especial</p>
+                      </div>
+                    </div>
+                    <div class="row rowTwoModal">
+                      <div class="col-md-8">
+
+                      </div>
+                      <div class="col-md-4 alignModalCantidad">
+                        <label class="form-control-label labelCantidad" for="input-cantidad">Cantidad</label>
+                        <input id="input-cantidad" class="cantidadModal" type="number">
+                      </div>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn buttonCerrar" data-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn buttonComprar">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Fin modal-->
+          <!--Inicio modal -->
+          <div class="modal fade" id="modalEliminar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content modalFondo">
+                <div class="modal-header">
+                  <h5 class="modal-title modalFuente" id="exampleModalLabel">Informacion del articulo</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <!--Foto articulo-->
+                    <div class="row">
+                      <div class="col-md-4 colocacionImgModal">
+                        <img class="imgModal" src="../../../../assets/img/spidey.png">
+                      </div>
+                      <div class="col-md-8">
+                        <span class="styleTextCardTitle"><b>Funko spiderman </b></span><br><label class="moneyModal"><b> $300.00</b></label><br>
+                        <p class="text-sm mb-0 textModal">Funko POP de Spiderman es una figura de coleccion, de excelente calidad, incluye caja jajaj. Buenas noches mucho gusto eras una chica mas despues de 5 minutos ya eras alguien especial</p>
+                      </div>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn buttonCerrar" data-dismiss="modal">Cancelar</button>
+                  <button type="button" class="btn buttonComprar" data-toggle="modal" data-target="#modalEliminarRevision">Eliminar</button>
+          
+              </div>
+            </div>
+          </div>
+          <!--Fin modal-->
+                            
+          <div class="modal fade" id="modalEliminarRevision" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content eliminarFondo">
+                <div class="modal-header">
+                  <h5 class="modal-title modalFuente" id="exampleModalLabel">Confirmacion de eliminacion</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12 alinearCentro">
+                        <i class="ni ni-bell-55 ni-3x imgModalElimina"></i>
+                       <p class="text-sm mb-0 textModalElimina">¿Estas seguro de que quieres eliminar eteste producto de tu historial?</p>
+                      </div>
+                    </div>                    
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn cancelarElimina" data-dismiss="modal">Cancelar</button>
+                  <button type="button" class="btn confirmarElimina">Estoy seguro</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  </div>
+  
+</div>

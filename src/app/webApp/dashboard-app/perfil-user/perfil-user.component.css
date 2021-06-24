@@ -1,0 +1,18 @@
+.fondoContent{
+    background-color: #968375;
+    padding-top: 170px;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+.styleTextContent{
+    font-size: 15px;
+}
+.styleTextTitle{
+    margin-top: 5px!important;
+    margin-bottom: 5px!important;
+}
+.styleHr{
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
