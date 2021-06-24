@@ -1,0 +1,38 @@
+.paddingNavbar{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background-color: #251d1b;
+}
+.backgroundOjos{
+    background-color: #1f130f;
+    fill: #1f130f;
+}
+.backgroundCabello{
+    background-color: #251d1b;
+}
+.botonMy{
+    font-size: 15px!important;
+}
+a.botonMy:focus,
+a.botonMy:hover{
+    background-color: #1f130f;
+}
+.bottonStyle{
+    background-color: #74301d;
+    color: white;
+}
+button.bottonStyle:focus{
+    background-color: #a5624c;
+}
+.imgSizeContent{
+    height: 60px;
+}
+.imgSizeCard{
+    height: 40px;
+}
+.styleText{
+    margin-top: 7%;
+}
+.imgFooter{
+    height: 40px;
+}

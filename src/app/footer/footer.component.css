@@ -1,0 +1,24 @@
+.footerAcerca{
+    background-color: white;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    width: 100%;
+}
+.contenidoFooter{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fuenteFooter{
+    color: #a5624c;
+    font-size: 13px;
+}
+.imgFooter{
+    height: 40px;
+}
+.fuenteTituloFooter{
+    color: #74301d;
+    font-size: 15px;
+    
+}

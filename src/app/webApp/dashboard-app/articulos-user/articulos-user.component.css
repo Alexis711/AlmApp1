@@ -1,0 +1,103 @@
+.fondoContent{
+    background-color: #968375;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.labelProductos{
+    margin-bottom: 0%;
+    font-size: 15px;
+}
+.styleButton{
+    background-color: #74301d;
+    color: white;
+}
+.fondoCardProducto{
+    background-color: #9f6149;
+    color: white;
+    margin-top: 50px;
+}
+.styleTextCardTitle{
+    color: #74301d;
+    font-size: 18px;
+}
+.styleTextCard{
+    color: white;
+}
+.imgPos{
+    text-align: center;
+}
+.imgSize{
+    height: 60px!important;
+    width: 60px!important;
+    border-radius: 10%!important;
+}
+.sizeRowTwo{
+    margin-top: 15px;
+}
+.modalFondo{
+    background-color: #b08575;
+}
+.modalFuente{
+    color: #1f130f;
+}
+.buttonCerrar{
+    background-color: #b08575;
+    color: #1f130f;
+}
+.buttonComprar{
+    background-color: #1f130f;
+    color: #b08575;
+}
+.imgModal{
+    width: 100px;
+    height: 100px;
+}
+.colocacionImgModal{
+    align-self: center;
+    text-align: center;
+}
+.textModal{
+    font-size: 13px!important;
+    text-align: justify;
+}
+.moneyModal{
+    text-align: right!important;
+    color: #1f130f;
+    font-size: 15px;
+}
+.cantidadModal{
+    width: 100%;
+    background-color: #a5624caf;
+    color: #251d1b;
+    border-radius: 10%;
+    border: 1px solid #251d1b;
+    font-size: 15px;
+}
+.rowTwoModal{
+    margin-top: 15px;
+}
+.labelCantidad{
+    color: #251d1b;
+    font-size: 15px;
+}
+.alignModalCantidad{
+    text-align: right;
+}
+/*
+Colores base
+LabBoc = #74301d
+LabBoc1.0 = #9f6149
+LabBoc2 = #a5624c
+Cachete = #b08575
+LunCuel = #625042
+Piel = #968375
+Cabello = #251d1b
+Ojos = #1f130f
+azul = #557c82
+
+Color base
+Sidebar = Ojos
+Fondo = piel
+Navbar = Cabello
+Botones = LabBoc
+*/
